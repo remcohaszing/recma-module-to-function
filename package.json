@@ -1,0 +1,57 @@
+{
+  "name": "recma-module-to-function",
+  "version": "0.0.0",
+  "description": "A recma plugin to convert an ESTree module into a function body.",
+  "keywords": [
+    "esast",
+    "estree",
+    "eval",
+    "evaluate",
+    "mdx",
+    "on-demand",
+    "ondemand",
+    "recma"
+  ],
+  "homepage": "https://github.com/remcohaszing/recma-module-to-function#readme",
+  "bugs": "https://github.com/remcohaszing/recma-module-to-function/issues",
+  "repository": "remcohaszing/recma-module-to-function",
+  "funding": "https://github.com/sponsors/remcohaszing",
+  "license": "MIT",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./dist/recma-module-to-function.js",
+  "files": [
+    "dist",
+    "src",
+    "!test*"
+  ],
+  "scripts": {
+    "prepack": "tsc --build",
+    "pretest": "tsc --build",
+    "test": "node --enable-source-maps --test"
+  },
+  "dependencies": {
+    "@types/estree": "^1.0.0",
+    "estree-util-module-to-function": "^2.0.0",
+    "unified": "^11.0.0"
+  },
+  "devDependencies": {
+    "@mdx-js/mdx": "^3.0.0",
+    "@types/mdx": "^2.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-remcohaszing": "^10.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "prettier": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recma": "^1.0.0",
+    "remark-cli": "^12.0.0",
+    "remark-preset-remcohaszing": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}

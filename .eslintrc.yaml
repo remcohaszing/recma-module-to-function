@@ -1,0 +1,16 @@
+root: true
+extends:
+  - remcohaszing
+rules:
+  '@typescript-eslint/no-namespace': off
+  '@typescript-eslint/no-redeclare': off
+overrides:
+  - files:
+      - '*.md/*'
+    rules:
+      capitalized-comments: off
+      require-await: off
+  - files:
+      - '*.md/*.ts'
+    rules:
+      '@typescript-eslint/explicit-function-return-type': off
