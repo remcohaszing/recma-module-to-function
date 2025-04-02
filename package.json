@@ -1,6 +1,6 @@
 {
   "name": "recma-module-to-function",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A recma plugin to convert an ESTree module into a function body.",
   "keywords": [
     "esast",
