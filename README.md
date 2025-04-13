@@ -198,7 +198,7 @@ const result = await fn()
 You can define a custom import to resolve imports code to a CDN such as [esm.sh](https://esm.sh).
 You can even allow import attributes to let the user decide on the CDN.
 
-```ts
+```js
 import { recma } from 'recma'
 import recmaModuleToFunction from 'recma-module-to-function'
 

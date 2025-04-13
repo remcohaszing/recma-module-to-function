@@ -37,15 +37,12 @@
     "unified": "^11.0.0"
   },
   "devDependencies": {
+    "@remcohaszing/eslint": "^11.0.0",
     "@mdx-js/mdx": "^3.0.0",
     "@types/mdx": "^2.0.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-remcohaszing": "^10.0.0",
-    "eslint-plugin-jsx-a11y": "^6.0.0",
-    "eslint-plugin-react": "^7.0.0",
     "prettier": "^3.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
